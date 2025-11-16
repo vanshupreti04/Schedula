@@ -20,8 +20,8 @@ function Availability() {
         Friday: false,
         Saturday: false
     });
-    const [startTime, setStartTime] = useState();
-    const [endTime, setEndTime] = useState();
+    const [startTime, setStartTime] = useState("");
+    const [endTime, setEndTime] = useState("");
     const db = getFirestore(app);
     const { user } = useKindeBrowserClient();
 

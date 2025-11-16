@@ -20,12 +20,12 @@ import { toast } from 'sonner'
 import { useRouter } from 'next/navigation'
 
 function MeetingForm({ setFormValue }) {
-    const [location, setLocation] = useState();
+    const [location, setLocation] = useState("");
     const [themeColor, setThemeColor] = useState('');
-    const [eventName, setEventName] = useState();
+    const [eventName, setEventName] = useState("");
     const [duration, setDuration] = useState(30);
-    const [locationType, setLocationType] = useState();
-    const [locationUrl, setLocationUrl] = useState();
+    const [locationType, setLocationType] = useState("");
+    const [locationUrl, setLocationUrl] = useState("");
     const { user } = useKindeBrowserClient();
     const db = getFirestore(app);
     const router = useRouter();

@@ -10,7 +10,7 @@ import React, { useState } from 'react'
 import { toast } from 'sonner'
 
 function CreateBusiness() {
-    const [businessName,setBusinessName]=useState();
+    const [businessName,setBusinessName]=useState("");
     const db = getFirestore(app);
     const {user}=useKindeBrowserClient();
     const router=useRouter();
