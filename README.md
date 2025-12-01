@@ -1,5 +1,9 @@
 # Schedula - Open-Source Meeting Scheduler 🚀
 
+## 🌐 Live Preview & Screenshot
+
+- **Live Link:** [View Schedula Online](https://schedula-ebon.vercel.app/)
+  
 A **Next.js-powered scheduling platform** for businesses, freelancers, doctors, and consultants to manage availability and let clients book slots seamlessly.
 
 ---
@@ -48,3 +52,10 @@ npm install
 
 #Starting Server
 npm run dev
+```
+
+### 📸 Preview
+
+<img width="1520" height="720" alt="Screenshot 2025-12-01 174200" src="https://github.com/user-attachments/assets/502923aa-5697-46e7-b7e4-ae7ae4045720" />
+
+
